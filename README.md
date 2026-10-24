@@ -43,17 +43,17 @@ When you speak into your microphone:
 realtime-audio-ai/
 ├── backend/
 │   ├── services/
-│   │   ├── openaiService.js   # Whisper transcription & GPT-4 NLP analysis
-│   │   └── ttsService.js      # Google Cloud Text-to-Speech integration
-│   ├── tmp/                   # Scratch folder for incoming & outgoing audio
-│   ├── .env.example           # Template for backend environment variables
+│   │   ├── openaiService.js   
+│   │   └── ttsService.js      
+│   ├── tmp/                  
+│   ├── .env.example          
 │   ├── package.json
-│   └── server.js              # Express HTTP & WebSocket server
+│   └── server.js              
 ├── frontend/
 │   ├── public/
 │   │   └── index.html
 │   ├── src/
-│   │   ├── App.js             # Voice recording UI, WebSocket client, audio playback
+│   │   ├── App.js           
 │   │   └── index.js
 │   └── package.json
 ├── .gitignore
