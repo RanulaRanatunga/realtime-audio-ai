@@ -1,3 +1,5 @@
+// design & develop by Ranula
+
 const fs = require('fs');
 const { OpenAI } = require('openai');
 require('dotenv').config();

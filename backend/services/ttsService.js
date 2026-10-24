@@ -1,3 +1,5 @@
+// design & develop by Ranula
+
 const textToSpeech = require('@google-cloud/text-to-speech');
 const fs = require('fs');
 const util = require('util');
